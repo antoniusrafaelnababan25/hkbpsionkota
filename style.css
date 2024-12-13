@@ -1,0 +1,639 @@
+/* style.css */
+
+/* Reset default margin dan padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body dan font default */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #3b4072;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("sion.jpg"); /* Ganti dengan gambar hero Anda */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(17, 17, 21);
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #e91e63;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.cta-button:hover {
+  background-color: #d81b60;
+}
+
+/* About Section */
+.about {
+  background-color: #ffffff;
+  padding: 50px 10px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: #555555;
+}
+
+.about .cta-button {
+  margin-top: 50px;
+  background-color: #3311ae;
+  color: white;
+}
+
+/* Services Section */
+.services {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.service-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 30%;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* jadwal.desain */
+
+/* Header */
+header {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Kebaktian Section */
+.kebaktian {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.kebaktian h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.jadwal {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.kebaktian-item {
+  background-color: #e4e4e4;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #3a3a3a;
+}
+
+.kebaktian-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.kebaktian-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Header */
+header {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Berita Section */
+.berita {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.berita h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.berita-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.berita-item {
+  background-color: #e4e4e4;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.berita-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.berita-content {
+  padding: 20px;
+}
+
+.berita-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.berita-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-berita {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn-berita:hover {
+  background-color: #e91e63;
+}
+
+/* Footer */
+footer {
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Header */
+header {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Kontak Section */
+.kontak {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.kontak h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.kontak-info {
+  margin-bottom: 40px;
+}
+
+.kontak-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.kontak-info p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Form Pengiriman Pesan */
+.form-pesan {
+  background-color: #e4e4e4;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-pesan h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-pesan label {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-pesan input,
+.form-pesan textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-pesan button {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-pesan button:hover {
+  background-color: #e91e63;
+}
+
+/* Footer */
+footer {
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Reset beberapa style bawaan browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body dan font dasar */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header .navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header .navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Reset beberapa style bawaan browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body dan font dasar */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header .navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header .navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Section - Organisasi Gereja */
+#organisasi {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#organisasi h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.card img {
+  width: 100%; /* Gambar mengikuti lebar kontainer */
+  height: 400px; /* Tinggi disesuaikan dengan proporsi gambar */
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Fasilitas Gereja */
+#fasilitas .facility {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#fasilitas .facility img {
+  width: 100%; /* Gambar mengikuti lebar kontainer */
+  max-width: 200px; /* Menentukan ukuran maksimum gambar */
+  height: auto; /* Menjaga rasio aspek gambar */
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+#fasilitas h3 {
+  margin-bottom: 10px;
+}
+
+/* Data Jemaat */
+#jemaat {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+#jemaat h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#jemaat ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+#jemaat ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak - HKBP Sion Kota</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">HKBP Sion Kota</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="jadwal.html">Jadwal Kebaktian</a></li>
+            <li><a href="berita.html">Berita</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="kontak">
+      <div class="container">
+        <h2>Kontak Kami</h2>
+
+        <div class="kontak-info">
+          <h3>Informasi Gereja</h3>
+          <p><strong>Nama Gereja:</strong> HKBP Sion Kota</p>
+          <p><strong>Alamat:</strong> Jl. Raya No. 123, Kota XYZ</p>
+          <p><strong>Email:</strong> info@hkbpsionkota.org</p>
+          <p><strong>Telepon:</strong> (021) 12345678</p>
+          <p><strong>Jam Layanan:</strong> Senin - Sabtu, 08:00 - 16:00 WIB</p>
+        </div>
+
+        <div class="form-pesan">
+          <h3>Kirimi Pesan</h3>
+          <form action="kirim_pesan.php" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="5" required></textarea>
+
+            <button type="submit" class="btn-kirim">Kirim Pesan</button>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 HKBP Sion Kota | Semua Hak Dilindungi</p>
+      </div>
+    </footer>
+  </body>
+</html>
